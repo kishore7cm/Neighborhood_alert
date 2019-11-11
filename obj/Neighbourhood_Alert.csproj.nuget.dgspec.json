@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kisho\\source\\repos\\Neighbourhood_Alert\\Neighbourhood_Alert.csproj": {}
+    "D:\\MSIS\\XML Webservices\\Neighborhood_alert\\Neighbourhood_Alert.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kisho\\source\\repos\\Neighbourhood_Alert\\Neighbourhood_Alert.csproj": {
+    "D:\\MSIS\\XML Webservices\\Neighborhood_alert\\Neighbourhood_Alert.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kisho\\source\\repos\\Neighbourhood_Alert\\Neighbourhood_Alert.csproj",
+        "projectUniqueName": "D:\\MSIS\\XML Webservices\\Neighborhood_alert\\Neighbourhood_Alert.csproj",
         "projectName": "Neighbourhood_Alert",
-        "projectPath": "C:\\Users\\kisho\\source\\repos\\Neighbourhood_Alert\\Neighbourhood_Alert.csproj",
+        "projectPath": "D:\\MSIS\\XML Webservices\\Neighborhood_alert\\Neighbourhood_Alert.csproj",
         "packagesPath": "C:\\Users\\kisho\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kisho\\source\\repos\\Neighbourhood_Alert\\obj\\",
+        "outputPath": "D:\\MSIS\\XML Webservices\\Neighborhood_alert\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kisho\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +37,12 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
