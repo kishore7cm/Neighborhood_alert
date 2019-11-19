@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MSIS\\XML Webservices\\Neighborhood_alert\\Neighbourhood_Alert.csproj": {}
+    "C:\\Users\\18123\\Source\\Repos\\Neighborhood_alert\\Neighbourhood_Alert.csproj": {}
   },
   "projects": {
-    "D:\\MSIS\\XML Webservices\\Neighborhood_alert\\Neighbourhood_Alert.csproj": {
+    "C:\\Users\\18123\\Source\\Repos\\Neighborhood_alert\\Neighbourhood_Alert.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MSIS\\XML Webservices\\Neighborhood_alert\\Neighbourhood_Alert.csproj",
+        "projectUniqueName": "C:\\Users\\18123\\Source\\Repos\\Neighborhood_alert\\Neighbourhood_Alert.csproj",
         "projectName": "Neighbourhood_Alert",
-        "projectPath": "D:\\MSIS\\XML Webservices\\Neighborhood_alert\\Neighbourhood_Alert.csproj",
-        "packagesPath": "C:\\Users\\kisho\\.nuget\\packages\\",
-        "outputPath": "D:\\MSIS\\XML Webservices\\Neighborhood_alert\\obj\\",
+        "projectPath": "C:\\Users\\18123\\Source\\Repos\\Neighborhood_alert\\Neighbourhood_Alert.csproj",
+        "packagesPath": "C:\\Users\\18123\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\18123\\Source\\Repos\\Neighborhood_alert\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\kisho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\18123\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
