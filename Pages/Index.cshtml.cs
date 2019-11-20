@@ -13,6 +13,8 @@ namespace Neighbourhood_Alert.Pages
 {
     public class IndexModel : PageModel
     {
+        const string neighbourhoodURL = @"https://cagisonline.hamilton-co.org/arcgis/rest/services/CINC_PLANNING/Munitwps_Neighborhoods/MapServer/1/query?where=1%3D1&outFields=OBJECTID,CAGIS.Cinc_Community_Council_Bnd.AREA,PERIMETER,NEIGH_BND_,NEIGH,LINE,ACRES,NEIGH_BOUN,REVISED_DA&returnGeometry=false&outSR=4326&f=json";
+        const string crimesURL = @"https://data.cincinnati-oh.gov/resource/k59e-2pvf.json";
         private readonly ILogger<IndexModel> _logger;
 
         public IndexModel(ILogger<IndexModel> logger)
@@ -27,15 +29,16 @@ namespace Neighbourhood_Alert.Pages
 
             using (var webClient = new WebClient())
             {
-                // string neighborhood = GetData("https://cagisonline.hamilton-co.org/arcgis/rest/services/CINC_PLANNING/Munitwps_Neighborhoods/MapServer/1/query?where=1%3D1&outFields=OBJECTID,CAGIS.Cinc_Community_Council_Bnd.AREA,PERIMETER,NEIGH_BND_,NEIGH,LINE,ACRES,NEIGH_BOUN,REVISED_DA&returnGeometry=false&outSR=4326&f=json");
+                // string neighborhood = GetData("");
                 string neighbourhoodjsonString = "";
-                neighbourhoodjsonString = webClient.DownloadString("https://cagisonline.hamilton-co.org/arcgis/rest/services/CINC_PLANNING/Munitwps_Neighborhoods/MapServer/1/query?where=1%3D1&outFields=OBJECTID,CAGIS.Cinc_Community_Council_Bnd.AREA,PERIMETER,NEIGH_BND_,NEIGH,LINE,ACRES,NEIGH_BOUN,REVISED_DA&returnGeometry=false&outSR=4326&f=json");
-                var neighbourhoodlocations = Neighborhood.FromJson(neighbourhoodjsonString);
+                neighbourhoodjsonString = webClient.DownloadString(neighbourhoodURL);
+                Neighborhood neighbourhoodlocations = Neighborhood.FromJson(neighbourhoodjsonString);
                 ViewData["neighbourhood"] = neighbourhoodlocations;
 
-                string crimejsonString = webClient.DownloadString("https://data.cincinnati-oh.gov/resource/k59e-2pvf.json");
-                var crimes = Crime.FromJson(crimejsonString);
+                string crimejsonString = webClient.DownloadString(crimesURL);
+                Crime crimes = Crime.FromJson(crimejsonString);
                 ViewData["crimes"] = crimes;
+
             }
         }
     }
