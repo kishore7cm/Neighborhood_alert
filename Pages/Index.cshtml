@@ -2,9 +2,39 @@
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
+    //var name = ViewData["MyName"];
+    //var age = ViewData["age"];
+    //IList<NeighborhoodLocation.Neighborhood> NeighborhoodList;
+    //var NeighborhoodList = ViewData["neighbourhood"] as IList<NeighborhoodLocation.Attributes>;
+    IList<NeighborhoodCrime.Crime> NeighborhoodCrimeList = (IList<NeighborhoodCrime.Crime>)ViewData["crimes"];
 }
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <table>
+        <tr>
+            <th>Incident Number</th>
+            <th>Date Reported</th>
+            <th>Offense</th>
+            <th>Weapons</th>
+            <th>Cpd_neighborhood</th>
+            <th>Address</th>            
+        </tr>
+        @{
+            @foreach (NeighborhoodCrime.Crime Crimes in NeighborhoodCrimeList)
+            {
+                        <tr>
+                            <td>@Crimes.IncidentNo</td>
+                            <td>@Crimes.DateReported</td>
+                            <td>@Crimes.Offense</td>
+                            <td>@Crimes.Weapons</td>
+                            <td>@Crimes.Neighborhood</td>
+                            <td>@Crimes.AddressX</td>
+                        </tr>
+                    
+                
+            }
+        }
+    </table>
+    <br />
 </div>
