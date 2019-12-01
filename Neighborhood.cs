@@ -109,12 +109,12 @@ namespace NeighborhoodLocation
 
     public partial class Neighborhood
     {
-        public static Neighborhood FromJson(string json) => JsonConvert.DeserializeObject<Neighborhood>(json, NeighborhoodLocation.Converter.Settings);
+        public static Neighborhood[] FromJson(string json) => JsonConvert.DeserializeObject<Neighborhood[]>(json, NeighborhoodLocation.Converter.Settings);
     }
 
     public static class Serialize
     {
-        public static string ToJson(this Neighborhood self) => JsonConvert.SerializeObject(self, NeighborhoodLocation.Converter.Settings);
+        public static string ToJson(this Neighborhood[] self) => JsonConvert.SerializeObject(self, NeighborhoodLocation.Converter.Settings);
     }
 
     internal static class Converter

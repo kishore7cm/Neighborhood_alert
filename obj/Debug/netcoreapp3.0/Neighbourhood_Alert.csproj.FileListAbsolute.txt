@@ -44,8 +44,10 @@ D:\MSIS\XML Webservices\Neighborhood_alert\bin\Debug\netcoreapp3.0\Neighbourhood
 D:\MSIS\XML Webservices\Neighborhood_alert\bin\Debug\netcoreapp3.0\Neighbourhood_Alert.pdb
 D:\MSIS\XML Webservices\Neighborhood_alert\bin\Debug\netcoreapp3.0\Neighbourhood_Alert.Views.dll
 D:\MSIS\XML Webservices\Neighborhood_alert\bin\Debug\netcoreapp3.0\Neighbourhood_Alert.Views.pdb
+D:\MSIS\XML Webservices\Neighborhood_alert\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
 D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\staticwebassets\Neighbourhood_Alert.StaticWebAssets.Manifest.cache
 D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\staticwebassets\Neighbourhood_Alert.StaticWebAssets.xml
+D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Neighbourhood_Alert.MvcApplicationPartsAssemblyInfo.cache
 D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Neighbourhood_Alert.RazorAssemblyInfo.cache
 D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Neighbourhood_Alert.RazorAssemblyInfo.cs
 D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Neighbourhood_Alert.AssemblyInfoInputs.cache
@@ -63,9 +65,6 @@ D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Razor\Pages\_
 D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Neighbourhood_Alert.RazorTargetAssemblyInfo.cache
 D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Neighbourhood_Alert.RazorTargetAssemblyInfo.cs
 D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Neighbourhood_Alert.Views.pdb
+D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Neighbourhood_Alert.csproj.CopyComplete
 D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Neighbourhood_Alert.dll
 D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Neighbourhood_Alert.pdb
-D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Neighbourhood_Alert.csproj.CopyComplete
-D:\MSIS\XML Webservices\Neighborhood_alert\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
-D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Neighbourhood_Alert.MvcApplicationPartsAssemblyInfo.cache
-D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Neighbourhood_Alert.csprojAssemblyReference.cache
