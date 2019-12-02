@@ -68,3 +68,4 @@ D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Neighbourhood
 D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Neighbourhood_Alert.csproj.CopyComplete
 D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Neighbourhood_Alert.dll
 D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Neighbourhood_Alert.pdb
+D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Neighbourhood_Alert.csprojAssemblyReference.cache

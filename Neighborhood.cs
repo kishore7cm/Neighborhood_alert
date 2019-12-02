@@ -53,14 +53,17 @@ namespace NeighborhoodLocation
         [JsonProperty("NEIGH")]
         public string Neigh { get; set; }
 
-        [JsonProperty("SYMBOL1")]
-        public long Symbol1 { get; set; }
+        [JsonProperty("LINE")]
+        public long Line { get; set; }
 
         [JsonProperty("ACRES")]
         public double Acres { get; set; }
 
         [JsonProperty("NEIGH_BOUN")]
         public NeighBoun NeighBoun { get; set; }
+
+        [JsonProperty("REVISED_DA")]
+        public long RevisedDa { get; set; }
     }
 
     public partial class FieldAliases
@@ -80,14 +83,17 @@ namespace NeighborhoodLocation
         [JsonProperty("NEIGH")]
         public string Neigh { get; set; }
 
-        [JsonProperty("SYMBOL1")]
-        public string Symbol1 { get; set; }
+        [JsonProperty("LINE")]
+        public string Line { get; set; }
 
         [JsonProperty("ACRES")]
         public string Acres { get; set; }
 
         [JsonProperty("NEIGH_BOUN")]
         public string NeighBoun { get; set; }
+
+        [JsonProperty("REVISED_DA")]
+        public string RevisedDa { get; set; }
     }
 
     public partial class Field
