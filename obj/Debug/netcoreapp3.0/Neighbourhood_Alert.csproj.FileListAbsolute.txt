@@ -33,13 +33,6 @@ C:\Users\kisho\source\repos\Neighbourhood_Alert\obj\Debug\netcoreapp3.0\Neighbou
 C:\Users\kisho\source\repos\Neighbourhood_Alert\obj\Debug\netcoreapp3.0\Neighbourhood_Alert.dll
 C:\Users\kisho\source\repos\Neighbourhood_Alert\obj\Debug\netcoreapp3.0\Neighbourhood_Alert.pdb
 C:\Users\kisho\source\repos\Neighbourhood_Alert\obj\Debug\netcoreapp3.0\Neighbourhood_Alert.csproj.CopyComplete
-D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\staticwebassets\Neighbourhood_Alert.StaticWebAssets.Manifest.cache
-D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\staticwebassets\Neighbourhood_Alert.StaticWebAssets.xml
-D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Neighbourhood_Alert.MvcApplicationPartsAssemblyInfo.cache
-D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Neighbourhood_Alert.RazorAssemblyInfo.cache
-D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Neighbourhood_Alert.RazorAssemblyInfo.cs
-D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Neighbourhood_Alert.AssemblyInfoInputs.cache
-D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Neighbourhood_Alert.AssemblyInfo.cs
 D:\MSIS\XML Webservices\Neighborhood_alert\bin\Debug\netcoreapp3.0\appsettings.Development.json
 D:\MSIS\XML Webservices\Neighborhood_alert\bin\Debug\netcoreapp3.0\appsettings.json
 D:\MSIS\XML Webservices\Neighborhood_alert\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
@@ -142,11 +135,24 @@ D:\MSIS\XML Webservices\Neighborhood_alert\bin\Debug\netcoreapp3.0\runtimes\win-
 D:\MSIS\XML Webservices\Neighborhood_alert\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\MSIS\XML Webservices\Neighborhood_alert\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\MSIS\XML Webservices\Neighborhood_alert\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\staticwebassets\Neighbourhood_Alert.StaticWebAssets.Manifest.cache
+D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\staticwebassets\Neighbourhood_Alert.StaticWebAssets.xml
+D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Neighbourhood_Alert.MvcApplicationPartsAssemblyInfo.cache
+D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Neighbourhood_Alert.RazorAssemblyInfo.cache
+D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Neighbourhood_Alert.RazorAssemblyInfo.cs
+D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Neighbourhood_Alert.AssemblyInfoInputs.cache
+D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Neighbourhood_Alert.AssemblyInfo.cs
 D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Neighbourhood_Alert.TagHelpers.input.cache
 D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Neighbourhood_Alert.TagHelpers.output.cache
 D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Neighbourhood_Alert.RazorCoreGenerate.cache
+D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Razor\Pages\CrimeReport\Create.cshtml.g.cs
+D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Razor\Pages\CrimeReport\Delete.cshtml.g.cs
+D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Razor\Pages\CrimeReport\Details.cshtml.g.cs
+D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Razor\Pages\CrimeReport\Edit.cshtml.g.cs
+D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Razor\Pages\CrimeReport\Index.cshtml.g.cs
 D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Razor\Pages\Error.cshtml.g.cs
 D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Razor\Pages\Index.cshtml.g.cs
+D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Razor\Pages\NeighborAlert.cshtml.g.cs
 D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Razor\Pages\Privacy.cshtml.g.cs
 D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
 D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -158,9 +164,3 @@ D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Neighbourhood
 D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Neighbourhood_Alert.csproj.CopyComplete
 D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Neighbourhood_Alert.dll
 D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Neighbourhood_Alert.pdb
-D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Razor\Pages\CrimeReport\Create.cshtml.g.cs
-D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Razor\Pages\CrimeReport\Delete.cshtml.g.cs
-D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Razor\Pages\CrimeReport\Details.cshtml.g.cs
-D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Razor\Pages\CrimeReport\Edit.cshtml.g.cs
-D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Razor\Pages\CrimeReport\Index.cshtml.g.cs
-D:\MSIS\XML Webservices\Neighborhood_alert\obj\Debug\netcoreapp3.0\Neighbourhood_Alert.csprojAssemblyReference.cache
