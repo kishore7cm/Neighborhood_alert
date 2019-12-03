@@ -12,26 +12,24 @@ namespace Neighbourhood_Alert.Pages
 {
     public class NeighborAlertModel : PageModel
     {
+        [BindProperty]
+        public string Search { get; set; }
+        public bool datafetched { get; set; }
         public ICollection<TrafficAccident> trafficAccidents { get; set; }
         public ICollection<Crime> crimes { get; set; }
 
         HashSet<string> locationNames = new HashSet<string>();
+        public NeighborAlertModel()
+        {
+            using (var webClient = new WebClient())
+            {
+                string crimejsonString = GetData("https://data.cincinnati-oh.gov/resource/k59e-2pvf.json");
+                crimes = Crime.FromJson(crimejsonString);
+            }
+        }
         public void OnGet()
         {
-            String trafficjsonString = GetData("https://data.cincinnati-oh.gov/resource/rvmt-pkmq.json");
-            trafficAccidents = TrafficAccident.FromJson(trafficjsonString);                   
-
-
-            string crimejsonString = GetData("https://data.cincinnati-oh.gov/resource/k59e-2pvf.json");
-            crimes = Crime.FromJson(crimejsonString);            
-
-            //foreach (Traffic.TrafficAccident traffic in trafficAccidents)
-            //{
-            //    if (!traffic.CommunityCouncilNeighborhood.Equals("N/A"))
-            //    {
-            //        locationNames.Add(traffic.CommunityCouncilNeighborhood.ToUpper());
-            //    }
-            //}
+            datafetched = false;                         
 
             foreach (Crime crime in crimes)
             {
@@ -46,11 +44,12 @@ namespace Neighbourhood_Alert.Pages
         }
         public void OnPost()
         {
-            //ViewData["LocationNames"] = locationNames;
+            ViewData["LocationNames"] = locationNames;
 
-            //crimes = crimes.Where(x => x.CommunityCouncilNeighborhood.ToUpper().Equals(Search.ToUpper())).ToArray();
-            //ViewData["crimes"] = crimes;
-           
+            crimes = crimes.Where(x => x.CommunityCouncilNeighborhood.ToUpper().Equals(Search.ToUpper())).ToArray();
+            ViewData["crimes"] = crimes;
+            datafetched = true;
+
         }
             public string GetData(string endpoint)
         {
