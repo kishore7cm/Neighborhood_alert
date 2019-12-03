@@ -1,0 +1,31 @@
+﻿@page
+@model Neighbourhood_Alert.Pages.StatisticsModel
+@{
+    ViewData["Title"] = "Statistics";
+    var locationNames = ViewData["LocationNames"];
+    var trafficAccidents = (Traffic.TrafficAccident[])ViewData["trafficAccidents"];
+    var crimes = (NeighborhoodCrime.Crime[])ViewData["crimes"];
+}
+
+<center><h1>Breakdown of Road Accidents and Crimes in each Neighborhood</h1></center>
+<h5 align="center"><strong>Cincinnati Neighborhood Alert Statistics</strong></h5>
+<table class="table table-bordered table-light table-striped">
+    <thead>
+        <tr>
+            <th>Neighborhood</th>
+            <th>Road Accidents</th>
+            <th>Crime</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var neighborhood in ViewBag.locationNames)
+        {
+            <tr>
+                <td>@neighborhood</td>
+                <td>@trafficAccidents.Where(x => x.CommunityCouncilNeighborhood.ToUpper().Equals(neighborhood.ToUpper())).Count()</td>
+                <td>@crimes.Where(x => x.CommunityCouncilNeighborhood.ToUpper().Equals(neighborhood.ToUpper())).Count()</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
