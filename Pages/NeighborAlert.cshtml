@@ -1,1 +1,64 @@
-﻿
+﻿@page
+@model Neighbourhood_Alert.Pages.NeighborAlertModel
+@{
+    ViewData["Title"] = "NeighborAlert";
+    var locationNames = ViewData["LocationNames"];
+    var crimes = (NeighborhoodCrime.Crime[])ViewData["crimes"];
+}
+
+<form action="" method="POST">
+    <div class="form-group">
+        <label class="control-label" for="search"><strong></strong></label>
+        <input list="locations" class="form-control" name="search" id="search" style="width:50%" />
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Search Neighbourhood" class="btn btn-danger" />
+    </div>
+    <datalist id="locations">
+        @foreach (var locationName in ViewBag.locationNames)
+
+        {
+            <option> @locationName </option>
+        }
+    </datalist>
+</form>
+@if (Model.datafetched == true)
+{
+    <div>
+        <table class="table table-bordered table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>Neighbourhood</th>
+                    <th>Date</th>
+                    <th>Location</th>
+                    <th>Offense</th>
+                    <th>Total No Of Suspects</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (crimes.Count() > 0)
+                {
+                    @foreach (NeighborhoodCrime.Crime crime in crimes.OrderByDescending(crime => crime.DateReported))
+                    {
+                        <tr>
+                            <td>@crime.CommunityCouncilNeighborhood</td>
+                            <td>@crime.DateReported</td>
+                            <td>@crime.Location</td>
+                            <td>@crime.Offense</td>
+                            <td>@crime.Totalsuspects</td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr class="danger">
+                        <td colspan="6" class="text-center">
+                            No results found for term "@Model.Search"
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+
