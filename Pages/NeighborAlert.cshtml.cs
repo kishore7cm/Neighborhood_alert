@@ -44,7 +44,15 @@ namespace Neighbourhood_Alert.Pages
             ViewData["LocationNames"] = locationNames;
 
         }
-        public string GetData(string endpoint)
+        public void OnPost()
+        {
+            //ViewData["LocationNames"] = locationNames;
+
+            //crimes = crimes.Where(x => x.CommunityCouncilNeighborhood.ToUpper().Equals(Search.ToUpper())).ToArray();
+            //ViewData["crimes"] = crimes;
+           
+        }
+            public string GetData(string endpoint)
         {
             string downloadedJson = "";
             using (WebClient webClient = new WebClient())
