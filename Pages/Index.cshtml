@@ -2,40 +2,11 @@
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
-    //var name = ViewData["MyName"];
-    //var age = ViewData["age"];
-    //IList<NeighborhoodLocation.Neighborhood> NeighborhoodList;
-    //var NeighborhoodList = ViewData["neighbourhood"] as IList<NeighborhoodLocation.Attributes>;
     IList<NeighborhoodCrime.Crime> NeighborhoodCrimeList = (IList<NeighborhoodCrime.Crime>)ViewData["crimes"];
 }
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <table>
-        <tr>
-            <th>Incident Number</th>
-            <th>Date Reported</th>
-            <th>Offense</th>
-            <th>Weapons</th>
-            <th>Cpd_neighborhood</th>            
-            <th>Address</th>            
-        </tr>
-        @{
-            @foreach (NeighborhoodCrime.Crime Crimes in NeighborhoodCrimeList)
-            {
-                        <tr>
-                            <td>@Crimes.IncidentNo</td>
-                            <td>@Crimes.DateReported</td>
-                            <td>@Crimes.Offense</td>
-                            <td>@Crimes.Weapons</td>
-                            <td>@Crimes.Neighborhood</td>
-                            <td>@Crimes.AddressX</td>
-                            <td>@Crimes.</td>
-                        </tr>
-                    
-                
-            }
-        }
-    </table>
-    <br />
+    <img src="https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2018/09/1862/1048/Crime20Tape.jpg?ve=1&tl=1" width="900" height="450" alt="Crimes picture" />
+    
 </div>
